@@ -1,4 +1,5 @@
 # TP Final 2019 - Grupo 02 - Administración de Medicamentos
+Dejo a disposición un prototipo de la aplicación en la siguiente dirección modulogestionmedicamentos.firebaseapp.com 
 En el archivo "Index.js" se encuentra codigo en Node.js con Express, donde se ven definidas las siguientes rutas, que son para compartir con otro grupo.
 //Enrutamiento INICIO
 app.get('/', impCtrls.test);
