@@ -5,4 +5,7 @@ Dejo a disposición un prototipo de la aplicación en la siguiente dirección mo
 
 //Enrutamiento Asignaciones app.post('/asignaciones', impCtrls.setAsignation); https://us-central1-modulogestionmedicamentos.cloudfunctions.net/app/asignaciones //Permite pasar un .Json que debe tener: medicId y el partList, la cual contiene un array con los medicamentos seleccionados, su respectiva "key" y cantidad. Como respuesta del POST se devuelve codigo 201 (de Creacion) y la respectiva "key" para almacenar en el espacio asignado a la consulta clinica..
 
-EJEMPLO DE POST: { "medicId": "MNXXX",**OBLIGATORIO "partList":[ { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" } ] }
+EJEMPLO DE POST: 
+```json
+{ "medicId": "MNXXX",**OBLIGATORIO "partList":[ { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" } ] }
+```
