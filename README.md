@@ -7,5 +7,18 @@ Dejo a disposición un prototipo de la aplicación en la siguiente [dirección](
 
 EJEMPLO DE POST: 
 ```json
-{ "medicId": "MNXXX",**OBLIGATORIO "partList":[ { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" }, { "key": "XXXXXXXXXXX",**OBLIGATORIO "cantidad": "XX",**OBLIGATORIO "codigo": "XXXXXX" } ] }
+{
+    "medicId": 4,
+    "date": "2019-06-14 16:45:00",
+    "medicinePrescriptions": [
+      {
+        "quantity": 3,
+        "medicineId": "bhaLUPjvNDiloz0J2Qsw"
+      },
+      {
+        "quantity": 1,
+        "medicineId": "tPRXYfUpRmCVRlAR4ncJ"
+      }
+    ]
+  }
 ```
